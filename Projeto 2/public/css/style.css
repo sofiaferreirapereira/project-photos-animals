@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: black;
+}
+
+.button-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    transition: background-color 0.5s; /* é necessário usar o id/class:hover para funcionar
+    /*Centralizar a imagem com o texto*/
+    display: inline-flex; 
+    align-items: center;
+}
+
+.button-link:hover {
+    background-color: dimgray;
+}
+
+.left-button {
+    left: 20px;
+}
+
+.right-button {
+    right: 20px;
+}
+
+#content {
+    /* criando um padrão para a borda ser exibida em todos os tamanhos de computador */
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#center-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#center-content img {
+    max-width: 40%;
+    height: auto;
+
+}
+
+#text-about {
+    padding: 50px;
+    /* Para que o texto ocupe toda a lateral*/
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#text-about h2{
+    margin-bottom: 30px;
+    font-family: "Playwrite CU", cursive;
+    font-size: 40px;
+    font-style: normal;
+}
+

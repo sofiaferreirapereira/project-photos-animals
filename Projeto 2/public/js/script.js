@@ -1,0 +1,1 @@
+// Não utiliza JS nessa página
